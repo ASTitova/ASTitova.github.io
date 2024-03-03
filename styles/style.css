@@ -1,0 +1,221 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+  @font-face {
+    font-weight: 400; /* Соответствует значению normal */
+    font-family: 'Angst';
+    src: url(../fonts/Angst-Normal.otf);
+  }
+  
+@font-face {
+  font-weight: 700; 
+  font-family: 'Circe';
+  font-style: bold;
+  src: url(../fonts/circe-bold.ttf);
+  }
+  
+@font-face {
+  font-weight: 350; 
+  font-family: 'Circe';
+  font-style: light;
+  src: url(../fonts/circe-light.ttf);
+  }
+
+  
+body {
+    margin: 0;
+    background-color: #191919;
+    color: #E6E6E6;
+
+}
+
+.header {
+    width: hug (1264 px);
+    height: hug (519px);
+    margin: 80px 88px 80px 88px;
+    position: relative;
+    gap: 64px;
+}
+
+.header_avatar {
+    width: 405px;
+    height: 519px;
+}
+
+.main_title {
+  font-family: 'Angst', sans-serif;
+  font-style: normal;
+  font-size: 124px;
+  font-weight: 400;
+  line-height: 136px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  margin: 40px 188px 207px 352px;
+  top: 0;
+
+}
+
+.about_me {
+  font-family: 'Circe', sans-serif;
+  font-size: 28px;
+  font-weight: 350;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  margin: 367px 0 0 469px;
+  top: 0;
+}
+
+.title {
+font-family: Angst;
+font-size: 64px;
+font-weight: 400;
+line-height: 80px;
+letter-spacing: 0em;
+text-align: left;
+margin: 0 0 48px 0;
+}
+
+.container {
+  width: Hug (1,264px);
+  height: Hug (1,064px);
+  gap: 48px;
+  margin: 0 88px;
+}
+
+.row {
+  width: Hug (1,264px);
+  height: Hug (212px);
+  gap: 24px;
+  display: flex; 
+}
+
+.row2 {
+  margin: 24px 0;
+  width: Hug (1,264px);
+  height: Hug (212px);
+  gap: 24px;
+  display: flex; 
+}
+
+.row3 {
+  margin: 24px 0;
+  width: Hug (1,264px);
+  height: Hug (212px);
+  gap: 24px;
+  display: flex; 
+}
+
+.block1 {
+  max-width: 405px;
+  max-height: 212px;
+  padding: 32px;
+  border: 1px;
+  gap: 8px;
+  border-color:#E6E6E6;
+  border-style: solid;
+  display: block;
+  
+}
+
+.block2 {
+  max-width: 405px;
+  max-height: 212px;
+  padding: 32px;
+  border: 1px;
+  gap: 8px;
+  border-color:#E6E6E6;
+  border-style: solid;
+  display: block;
+
+}
+
+.block3 {
+  max-width: 405px;
+  max-height: 212px;
+  padding: 32px;
+  border: 1px;
+  gap: 8px;
+  border-color:#E6E6E6;
+  border-style: solid;
+  display: block;
+  
+}
+
+.emoji {
+  width: 341px;
+  height: 38px;
+  font-family: Circe;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 8px 0;
+ }
+
+.container_title {
+  font-family: Circe;
+  font-style: bold;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 8px 0;
+}
+
+.text {
+  font-family: Circe;
+  font-style: light;
+  font-size: 20px;
+  font-weight: 350;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+
+.contacts {
+  width: 1264px;
+  border-top: 1px;
+  border-top-style:  solid;
+  border-top-color:  #E6E6E6;
+  margin: 68px 88px 0 88px;
+} 
+
+.links {
+  margin: 48px 0;
+}
+
+.TG {
+  margin: 0 0 24px 0;
+}
+
+.link {
+  font-family: Angst;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #E6E6E6;
+  text-decoration: none;
+  margin: 0 28px;
+ }
+
+ a:hover {
+  color:#FF0084;
+}
+
+
+
+
+
